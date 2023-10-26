@@ -1,11 +1,11 @@
 import './App.css';
 import Home from "./screens/Home";
-import MisCreaciones from "./screens/MisCreaciones";
-import Favoritos from "./screens/Favoritos";
+import MisCreaciones from "./screens/MisCreaciones/MisCreaciones";
+import Favoritos from "./screens/Favoritos/Favoritos";
 import InfoNuestra from "./screens/InfoNuestra";
 import { useState, useEffect } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Layout from './screens/Layout';
+import Layout from './screens/Layout/Layout';
 import axios from 'axios';
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
 
   
   useEffect(() => {
-    axios.get('/Creaciones.json')
+    axios.get('tp10/public/Creaciones.json')
       .then(response => {
 
         

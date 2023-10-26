@@ -1,26 +1,18 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React from 'react';
 
-
-const CadaCreacion = ({ creaciones, listaCreaciones }) => {
-
+const CadaCreacion = ({ listaCreaciones }) => {
     return (
         <div className='container'>
-            
             <div className="containerCadaUna">
-                { creaciones ? (
-                    
-                        creaciones.map(c => (
-                            <div className = 'cadaUna' key={c.id}>
-                                <h3 className='nombreCreac'>{c.title}</h3>
-
-                                <img className='imgs' src={c.images[0]} alt={c.title} />
-
-                            </div>
-                        ))
-                    )
-                    : 
-                    (
+                {Array.isArray(listaCreaciones) && listaCreaciones.length > 0 ? (
+                    listaCreaciones.map(c => (
+                        <div className='cadaUna' key={c.id}>
+                            <h3 className='nombreCreac'>{c.title}</h3>
+                            <img className='imgs' src={c.images[c.id]} alt={c.title} />
+                            <button src={c.url}></button>
+                        </div>
+                    ))
+                ) : (
                     <p>Loading... </p>
                 )}
             </div>

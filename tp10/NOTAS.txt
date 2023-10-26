@@ -22,3 +22,5 @@ El diseño debe ser similar a un sitio, de los que vemos en internet, ej: https:
 
 DONE/COMMENTS:
 - empezamos con layout
+- avances en mis creaciones
+- SEGUIR con lo de favoritos, estan las imagenes, quiero hacer un if dependiendo el estado de json (lo mismo que con el carrito y detalle producto del otro tp)
