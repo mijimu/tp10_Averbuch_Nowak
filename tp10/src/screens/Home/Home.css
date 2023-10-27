@@ -1,0 +1,44 @@
+.containerFoto {
+    position: relative;
+    width: 50%;
+    display:contents;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.image2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;    margin-left: 25%;
+    left: 0;
+    right: 0;
+    width: 200px;
+    height: 200px;
+    opacity: 0;    
+    border-radius: 50%;
+    transition: .5s ease;
+    background-color: #1e30f3;
+    
+}
+
+.containerFoto:hover .overlay {
+    opacity: 0.5;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}

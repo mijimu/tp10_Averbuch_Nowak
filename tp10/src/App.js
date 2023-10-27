@@ -1,8 +1,8 @@
 import './App.css';
-import Home from "./screens/Home";
+import Home from "./screens/Home/Home";
 import MisCreaciones from "./screens/MisCreaciones/MisCreaciones";
 import Favoritos from "./screens/Favoritos/Favoritos";
-import InfoNuestra from "./screens/InfoNuestra";
+import InfoNuestra from "./screens/InfoNuestra/InfoNuestra";
 import { useState, useEffect } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Layout from './screens/Layout/Layout';

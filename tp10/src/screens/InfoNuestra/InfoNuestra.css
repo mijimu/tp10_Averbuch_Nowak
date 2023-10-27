@@ -1,0 +1,22 @@
+h3{
+    color:#af249e;
+}
+
+.containerInfo{
+    width:80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+}
+
+.cadaUna{
+    border-color: black;
+    border-width: 1px;
+    width:50%;
+}
+*{color:black}
+
+.pics{
+    width: 200px;
+    height: auto;
+}

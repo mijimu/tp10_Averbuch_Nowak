@@ -21,6 +21,11 @@ const Layout = () => {
 
             <Outlet></Outlet>
         </nav>
+
+
+        <div className='containerAllPage'>
+            <footer></footer>        
+        </div>
         </>
     );
 }
