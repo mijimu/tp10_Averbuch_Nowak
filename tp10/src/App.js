@@ -7,14 +7,14 @@ import { useState, useEffect } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Layout from './screens/Layout/Layout';
 import axios from 'axios';
-
+import json from '../src/Creaciones.json'
 function App() {
 
   const [listaCreaciones, setListaCreaciones] = useState([]);
 
   
   useEffect(() => {
-    axios.get('tp10/public/Creaciones.json')
+    axios.get(json)
       .then(response => {
 
         

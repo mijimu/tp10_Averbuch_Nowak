@@ -1,7 +1,6 @@
-import {Link, Outlet} from 'react-router-dom';
 import "../Home/Home.css";
 import Footer from "../../components/Footer.js";
-import avatar from "../../assets/img_avatar.png";
+//import avatar from "../../assets/img_avatar.png";
 
 const Home = () => {
 

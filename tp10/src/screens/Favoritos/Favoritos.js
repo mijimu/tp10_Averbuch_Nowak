@@ -1,4 +1,3 @@
-import {Link, Outlet} from 'react-router-dom';
 import '../Favoritos/Favoritos.css';
 import favYes from './../../assets/fav.png';
 import favNo from './../../assets/emptyFav.png';
