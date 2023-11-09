@@ -1,23 +1,18 @@
 import React from 'react';
-
-const CadaCreacion = ({ listaCreaciones }) => {
+import  '../components/Styles.css';
+const CadaCreacion = ({ creacion }) => {
     return (
         <div className='container'>
-            <div className="containerCadaUna">
-                {Array.isArray(listaCreaciones) && listaCreaciones.length > 0 ? (
-                    listaCreaciones.map(c => (
-                        <div className='cadaUna' key={c.id}>
-                            <h3 className='nombreCreac'>{c.title}</h3>
-                            <img className='imgs' src={c.images[c.id]} alt={c.title} />
-                            <button src={c.url}></button>
-                        </div>
-                    ))
-                ) : (
-                    <p>Loading... </p>
-                )}
+            <div className="card">
+                <h3 className='nombreCreac'>{creacion.title}</h3>
+                <p>{creacion.description}</p>
+                <p>Materia: {creacion.subject}</p>
+                <p>Fecha: {creacion.date}</p>
+                <a href={creacion.url}><button className='btn'>Link</button></a>
             </div>
         </div>
     );
 };
 
 export default CadaCreacion;
+ 

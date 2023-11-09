@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "title": "Tp7 Compras",
+        "description": "Página web online para comprar productos de un local y agregarlos al carrito.",
+        "images": [
+            "image1.jpg",
+            "image2.jpg"
+        ],
+        "date": "2023-9-15",
+        "url": "https://github.com/micanowak/Nowak_Averbuch_Compras.git",
+        "subject": "EFSI",
+        "favorite": false
+    },
+    {
+        "id": 2,
+        "title": "Tesina de Tecnología e Innovación",
+        "description": "Una tesina de 1000 palabras, tema a elección, desarrollando un dilema u opinión que se relacione con estos topicos.",
+        "images": "image5.jpg",
+        "date": "2023-11-01",
+        "url": "https://medium.com/@mijal_correo/cu%C3%A1l-es-el-impacto-de-la-tecnolog%C3%ADa-en-el-aula-ae87427e7dd8",
+        "subject":"TEI",
+        "favorite": false
+    },
+    {
+        "id": 3,
+        "title": "Crónica --> Compitiendo en la cancha y la facultad: La exigencia de ser jugadora estudiante.",
+        "description": "Una crónica, tema a elección de las escritoras, desarrollando un dilema de nuestra rutina.",
+        "images": "image6.jpg",
+        "date": "2023-11-05",
+        "url": "https://docs.google.com/document/d/1pLse0KuhJinoaRiNcJuuAyL4u9Qay5q8vE0g8emVDBI/edit?usp=sharing",
+        "subject":"Lengua",
+        "favorite": false
+    }
+]

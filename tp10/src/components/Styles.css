@@ -61,3 +61,60 @@ h2{
     width: 200px;
     height: auto    ;
 }
+
+
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+    max-width: 90%;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card h3 {
+    margin-bottom: 8px;
+  }
+  
+  .card p {
+    color: #555;
+  }
+  
+  .card-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f8f9fa; /* Color de fondo, puedes cambiarlo según tu diseño */
+    padding: 16px;
+    text-align: center;
+    border-top: 1px solid #ddd; /* Borde superior opcional para separar el footer del contenido */
+  }
+  
+  .btn{
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-color:#7D28BC;
+    background-color: transparent;
+    border-radius: 10px;
+    border-width: 2;
+    color: #7D28BC;
+  }
+
+ 
