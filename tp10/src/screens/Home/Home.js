@@ -8,7 +8,7 @@ import'./Home.css';
 
 const Home = () => {
   const [creaciones, setCreaciones] = useState([]);
-
+  
   useEffect(() => {
     axios.get('/Creaciones.json')
       .then(response => {

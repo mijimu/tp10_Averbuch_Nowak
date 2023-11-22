@@ -1,9 +1,8 @@
 import React from 'react';
 import  '../components/Styles.css';
+const CadaCreacion = ({ creacion,onClick }) => {
+// componente para mostrar card de cada creacion
 
-const CadaCreacion = ({ creacion }) => {
-
-    
     return (
         <div className='containerCreaciones'>
             <div className="card">
@@ -12,6 +11,7 @@ const CadaCreacion = ({ creacion }) => {
                 <p>Materia: {creacion.subject}</p>
                 <p>Fecha: {creacion.date}</p>
                 <a href={creacion.url}><button className='btn'>Link</button></a>
+                <button onClick={onClick} style={{margin:30}}>agregar a favorito</button>
             
                 
             </div>
