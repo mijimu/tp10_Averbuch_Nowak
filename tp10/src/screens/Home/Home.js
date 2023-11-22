@@ -4,12 +4,13 @@ import Footer from "../../components/Footer.js";
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import CadaCreacion from "../../components/CadaCreacion";
+import'./Home.css';
 
 const Home = () => {
   const [creaciones, setCreaciones] = useState([]);
 
   useEffect(() => {
-    axios.get('/Creaciones.json') 
+    axios.get('/Creaciones.json')
       .then(response => {
         setCreaciones(response.data);
       })

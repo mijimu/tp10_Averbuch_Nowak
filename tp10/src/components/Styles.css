@@ -14,6 +14,10 @@ input{
     border-top-color: transparent;
 
 }
+.containerCreaciones{
+  width: 80%;margin: auto;
+}
+
 textarea{
     border-radius: 10px;
     border-width: 1px;
@@ -45,7 +49,9 @@ label{
     border-width: 1px;  background-color:  #e21e80; 
 }
 
-
+.containerCreaciones{
+  width: 80%;margin: auto;
+}
 .containerForm{
     flex-direction: row;
     flex-wrap: wrap;

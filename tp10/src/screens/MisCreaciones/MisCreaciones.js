@@ -2,24 +2,24 @@ import CadaCreacion from '../../components/CadaCreacion';
 import "../MisCreaciones/MisCreaciones.css";
 import favYes from './../../assets/fav.png';
 import favNo from './../../assets/emptyFav.png';
-import axios from 'axios'; 
+import axios from 'axios';
 import Footer from "../../components/Footer.js";
 
-import React, {useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
 
 const MisCreaciones = () => {
 
-    const [ creaciones, setCreaciones ] = useState([]);
+    const [creaciones, setCreaciones] = useState([]);
 
     useEffect(() => {
-        axios.get('/Creaciones.json') 
-          .then(response => {
-            setCreaciones(response.data);
-          })
-          .catch(error => {
-            console.error('Error', error);
-          });
-      }, []);
+        axios.get('/Creaciones.json')
+            .then(response => {
+                setCreaciones(response.data);
+            })
+            .catch(error => {
+                console.error('Error', error);
+            });
+    }, []);
 
 
     console.log('en mis creaciones');
