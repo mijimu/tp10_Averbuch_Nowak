@@ -10,8 +10,8 @@ const CadaCreacion = ({ creacion,onClick }) => {
                 <p>{creacion.description}</p>
                 <p>Materia: {creacion.subject}</p>
                 <p>Fecha: {creacion.date}</p>
-                <a href={creacion.url}><button className='btn'>Link</button></a>
-                <button onClick={onClick} style={{margin:30}}>agregar a favorito</button>
+                <a href={creacion.url}><button className='btn'>Link</button></a><br></br><br></br>
+                <button onClick={onClick} className='btn'>Agregar a favoritos</button>
             
                 
             </div>
